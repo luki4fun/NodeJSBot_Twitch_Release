@@ -65,7 +65,7 @@ class Bot {
      * get the current Time as integer
      * @returns {number}
      */
-    static getCurTime(){
+    getCurTime(){
         return Math.floor(new Date() / 1000);
     }
 
