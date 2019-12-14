@@ -83,7 +83,8 @@ class Bot {
      * @param str
      * @returns {number}
      */
-    static hashCode (str){
+    
+    hashCode (str){
         var hash = 0;
         if (str.length === 0) return hash;
         for (let i = 0; i < str.length; i++) {
